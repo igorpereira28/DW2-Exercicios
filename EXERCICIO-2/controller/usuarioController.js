@@ -3,7 +3,7 @@ const UsuarioDao = require('../model/DAO/usuarioDAO')
 module.exports = {
 
     adicionar(req, res) {
-        res.render('usuario/cadastrarUsuario.ejs')
+        res.render('usuario/cadastrarUsuario')
     },
 
     async listar(req, res) {
